@@ -1,0 +1,14 @@
+# Local editor and OS artifacts
+.DS_Store
+Thumbs.db
+
+# Common generated artifacts
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.pytest_cache/
+.venv/
+__pycache__/
+*.log
