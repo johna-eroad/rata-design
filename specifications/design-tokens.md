@@ -7,8 +7,8 @@
 > Applies across all Rātā surfaces — see [`platforms.md`](./platforms.md).
 > Machine-readable companion: [`design-tokens.json`](./design-tokens.json).
 > This markdown file is the source of truth (see DT-1) — the JSON is
-> generated from it and omits a couple of categories not yet fully
-> captured here (decorative palette, deprecated colour hex values).
+> generated from it and omits one category not yet fully captured here
+> (deprecated colour hex values).
 
 ## Context
 
@@ -88,10 +88,20 @@ on-surface, and RAG (red/amber/green) variant:
 | RAG amber | `ragAmber` | `#FAAB00` |
 | RAG red | `ragRed` | `#C7362C` |
 
-**Decorative palette** (charts, tags, non-status accents) — each colour has
-a default, dark, and light variant, e.g. `decorativeBlue` / `decorativeBlueDark`
-/ `decorativeBlueLight`: **blue**, **green**, **orange**, **purple**, **red**,
-**teal**, **yellow**.
+**Decorative palette** (charts, tags, non-status accents; not for conveying
+status/meaning — use the status colours above for that) — each colour has a
+default, dark, and light variant:
+
+| Colour | Default | Dark | Light |
+| --- | --- | --- | --- |
+| Red | `decorativeRed` `#FF584D` | `decorativeRedDark` `#C7362C` | `decorativeRedLight` `#FFB8B2` |
+| Orange | `decorativeOrange` `#E86900` | `decorativeOrangeDark` `#B95400` | `decorativeOrangeLight` `#FFBD87` |
+| Yellow | `decorativeYellow` `#996900` | `decorativeYellowDark` `#FFA91F` | `decorativeYellowLight` `#FFC547` |
+| Blue | `decorativeBlue` `#1693DE` | `decorativeBlueDark` `#056DAD` | `decorativeBlueLight` `#91CEF2` |
+| Green | `decorativeGreen` `#53A32E` | `decorativeGreenDark` `#288000` | `decorativeGreenLight` `#8FDB6C` |
+| Indigo | `decorativeIndigo` `#687DFF` | `decorativeIndigoDark` `#495AD1` | `decorativeIndigoLight` `#B8C0FF` |
+| Teal | `decorativeTeal` `#009E8C` | `decorativeTealDark` `#017A6C` | `decorativeTealLight` `#6EDBBF` |
+| Purple | `decorativePurple` `#BF57FF` | `decorativePurpleDark` `#990AF0` | `decorativePurpleLight` `#E2B2FF` |
 
 **Deprecated — do not use in new work** (see [DT-3](#dt-3--deprecated-tokens)):
 `deprecatedSurfaceCriticalRed`, `deprecatedRagAmberText` — both fail the
