@@ -13,6 +13,12 @@ This directory contains the authoritative specifications for the Rātā design s
 - [`accessibility.md`](./accessibility.md) — WCAG 2.1 AA accessibility
   requirements as declarative, testable acceptance criteria, with web vs.
   mobile implementation guidance where mechanisms differ.
+- [`design-tokens.md`](./design-tokens.md) — canonical colour, typography,
+  spacing, shape, breakpoint, input-sizing, and elevation values that every
+  platform's theme must derive from.
+- [`component-governance.md`](./component-governance.md) — the process for
+  resolving a component need (Storybook → baseline library → new request)
+  and getting a component change approved.
 
 Use this space for:
 
