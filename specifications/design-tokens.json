@@ -1,0 +1,128 @@
+{
+  "$description": "Rātā design tokens — machine-readable companion to specifications/design-tokens.md. The markdown file is the source of truth (see DT-1 in that file); if this file and the markdown ever disagree, the markdown wins and this file should be regenerated from it, not edited independently. Structured using W3C Design Tokens Community Group conventions ($value/$type/$description, https://design-tokens.github.io/community-group/format/) as a pragmatic, machine-parseable format — not a claim of strict spec validation. Some documented categories (decorative palette, deprecated colours) are intentionally omitted below because specific values are not yet captured in the markdown source; see the corresponding $description notes and specifications/design-tokens.md for status. Mobile (Android/iOS, KMP/Material 3) token values are not yet confirmed against this file — see 'Platform status' in specifications/design-tokens.md.",
+
+  "color": {
+    "brand": {
+      "eroadBrand": { "$value": "#EE3124", "$type": "color" }
+    },
+    "primaryAction": {
+      "default": { "$value": "#1869B7", "$type": "color" },
+      "hover": { "$value": "#4284C4", "$type": "color" },
+      "active": { "$value": "#124D86", "$type": "color" },
+      "pressed": { "$value": "#1693DE", "$type": "color" }
+    },
+    "surface": {
+      "level1": { "$value": "#F8F8F8", "$type": "color" },
+      "level2": { "$value": "#F1F1F2", "$type": "color" },
+      "level3": { "$value": "#EAEAEB", "$type": "color" },
+      "overlay": { "$value": "#FFFFFF", "$type": "color" },
+      "blueHover": { "$value": "#D8EBFD", "$type": "color" },
+      "purple": { "$value": "#F5E6FD", "$type": "color" }
+    },
+    "onSurface": {
+      "font": { "$value": "#3B434B", "$type": "color" },
+      "technicalFont": { "$value": "#6E7378", "$type": "color" },
+      "elevated": { "$value": "#1D242C", "$type": "color" },
+      "grayBorders": { "$value": "#C7C9CB", "$type": "color" }
+    },
+    "status": {
+      "success": {
+        "onSurface": { "$value": "#39771D", "$type": "color" },
+        "surface": { "$value": "#D7F2CA", "$type": "color" }
+      },
+      "warning": {
+        "onSurface": { "$value": "#996500", "$type": "color" },
+        "surface": { "$value": "#FFF8EB", "$type": "color" }
+      },
+      "critical": {
+        "onSurface": { "$value": "#BD0D00", "$type": "color" },
+        "surface": { "$value": "#FFE5E3", "$type": "color" },
+        "surfaceTint": { "$value": "#FFF1F1", "$type": "color" }
+      }
+    },
+    "rag": {
+      "green": { "$value": "#288000", "$type": "color" },
+      "amber": { "$value": "#FAAB00", "$type": "color" },
+      "red": { "$value": "#C7362C", "$type": "color" }
+    },
+    "decorative": {
+      "$description": "Chart/tag/accent palette — blue, green, orange, purple, red, teal, yellow, each with default/dark/light variants. Specific hex values are not yet captured in specifications/design-tokens.md; do not fabricate values here. Extract from eroadTheme.ts colors.ts (eroad/myeroad-portal) when confirming this section, then add tokens here and in the markdown together."
+    },
+    "deprecated": {
+      "$description": "deprecatedSurfaceCriticalRed and deprecatedRagAmberText MUST NOT be used in new work — both fail the contrast requirements in accessibility.md (A11Y-3) against their non-deprecated surfaces (see DT-3). Specific hex values are not yet captured in specifications/design-tokens.md."
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "base": { "$value": "Roboto", "$type": "fontFamily" }
+    },
+    "fontWeight": {
+      "regular": { "$value": 400, "$type": "fontWeight" },
+      "medium": { "$value": 500, "$type": "fontWeight" },
+      "bold": { "$value": 700, "$type": "fontWeight" }
+    },
+    "heading": {
+      "h1": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "7.2rem", "lineHeight": "8rem" } },
+      "h2": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "5.6rem", "lineHeight": "6.4rem" } },
+      "h3": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "4.8rem", "lineHeight": "5.6rem" } },
+      "h4": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "4.0rem", "lineHeight": "4.8rem" } },
+      "h5": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "3.2rem", "lineHeight": "4rem" } },
+      "h6": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "2.4rem", "lineHeight": "3.2rem" } },
+      "h7": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontWeight": 700, "fontSize": "1.6rem", "lineHeight": "2.4rem" } }
+    },
+    "body": {
+      "xxl": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "2.4rem", "lineHeight": "3.2rem" } },
+      "xl": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "2.0rem", "lineHeight": "2.8rem" } },
+      "lg": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "1.8rem", "lineHeight": "2.4rem" } },
+      "md": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "1.6rem", "lineHeight": "2.4rem" } },
+      "sm": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "1.4rem", "lineHeight": "2rem" } },
+      "xs": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "1.2rem", "lineHeight": "1.6rem" } },
+      "xxs": { "$type": "typography", "$value": { "fontFamily": "Roboto", "fontSize": "1.0rem", "lineHeight": "1.4rem" } }
+    },
+    "$description": "Sizes MUST use relative units (rem) on web so they scale with the browser's text-size setting — required by accessibility.md A11Y-4."
+  },
+
+  "spacing": {
+    "$description": "Base unit 4px. spacing(n) = n × 4px. Any spacing value MUST be expressible as spacing(n) for some whole or half n — arbitrary values (e.g. 13px) MUST NOT be used.",
+    "1": { "$value": "4px", "$type": "dimension" },
+    "2": { "$value": "8px", "$type": "dimension" },
+    "3": { "$value": "12px", "$type": "dimension" },
+    "4": { "$value": "16px", "$type": "dimension" },
+    "5": { "$value": "20px", "$type": "dimension" }
+  },
+
+  "shape": {
+    "borderRadius": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "Square corners is the deliberate current Rātā default across components, not an unstyled default. Do not change without a design system change request (DT-4)."
+    }
+  },
+
+  "breakpoint": {
+    "$description": "Mobile device size classes are the platform-specific equivalent — see platforms.md.",
+    "xs": { "$value": "0px", "$type": "dimension" },
+    "sm": { "$value": "375px", "$type": "dimension" },
+    "md": { "$value": "768px", "$type": "dimension" },
+    "lg": { "$value": "1024px", "$type": "dimension" },
+    "xl": { "$value": "1280px", "$type": "dimension" }
+  },
+
+  "inputSize": {
+    "$description": "Applies to inputs, selects, buttons, and similar controls. All interactive touch targets MUST still meet the minimum target size in accessibility.md (A11Y-5, 44×44px) — pad hit areas where a visual size below is used for a touch-operated control.",
+    "small": { "$value": "24px", "$type": "dimension" },
+    "medium": { "$value": "32px", "$type": "dimension" },
+    "large": { "$value": "40px", "$type": "dimension" },
+    "border": { "$value": "1px", "$type": "dimension" }
+  },
+
+  "elevation": {
+    "$description": "Stacking order, ascending — a higher value MUST render above a lower one.",
+    "layoutHeader": { "$value": 1100, "$type": "number" },
+    "drawer": { "$value": 1200, "$type": "number" },
+    "modal": { "$value": 1300, "$type": "number" },
+    "message": { "$value": 1400, "$type": "number" },
+    "tooltip": { "$value": 1500, "$type": "number" }
+  }
+}
