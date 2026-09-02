@@ -21,6 +21,9 @@ The repository is designed for clarity, reviewability, and agent-readability rat
 
 - `docs/` — general documentation, process guidance, and shared standards
 - `specifications/` — authoritative design specifications and criteria
+- `assets/` — visual reference assets (logo, screenshots, icons) used for
+  visual verification and extraction, catalogued in
+  [`specifications/visual-references.md`](./specifications/visual-references.md)
 - `skills/` — reusable skills and capability definitions for human and AI contributors
 - `agents/` — agent instructions, conventions, and operational guardrails
 

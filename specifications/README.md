@@ -19,6 +19,9 @@ This directory contains the authoritative specifications for the Rātā design s
 - [`component-governance.md`](./component-governance.md) — the process for
   resolving a component need (Storybook → baseline library → new request)
   and getting a component change approved.
+- [`visual-references.md`](./visual-references.md) — catalogue of visual
+  reference assets (logo, screenshots, icons) in [`assets/`](../assets/)
+  used for visual verification and extraction by AI design tools.
 
 Use this space for:
 
