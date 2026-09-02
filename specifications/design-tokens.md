@@ -5,6 +5,10 @@
 > Mobile (Android/iOS, KMP/Material 3) equivalent: not yet documented — see
 > [Platform status](#platform-status).
 > Applies across all Rātā surfaces — see [`platforms.md`](./platforms.md).
+> Machine-readable companion: [`design-tokens.json`](./design-tokens.json).
+> This markdown file is the source of truth (see DT-1) — the JSON is
+> generated from it and omits a couple of categories not yet fully
+> captured here (decorative palette, deprecated colour hex values).
 
 ## Context
 

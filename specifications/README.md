@@ -15,7 +15,9 @@ This directory contains the authoritative specifications for the Rātā design s
   mobile implementation guidance where mechanisms differ.
 - [`design-tokens.md`](./design-tokens.md) — canonical colour, typography,
   spacing, shape, breakpoint, input-sizing, and elevation values that every
-  platform's theme must derive from.
+  platform's theme must derive from. Has a machine-readable companion,
+  [`design-tokens.json`](./design-tokens.json), for tools that parse JSON
+  more reliably than markdown tables.
 - [`component-governance.md`](./component-governance.md) — the process for
   resolving a component need (Storybook → baseline library → new request)
   and getting a component change approved.
