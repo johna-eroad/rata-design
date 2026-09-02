@@ -30,6 +30,13 @@ The repository is designed for clarity, reviewability, and agent-readability rat
 - Specifications should be explicit, reviewable, and versionable.
 - AI agents should use the repository as the canonical source of system intent.
 - Product work should align to the design system before implementation begins.
+- This repository is read-only source of truth for any AI design tool that
+  consumes it (e.g. Claude Design). Such tools MUST NOT commit changes back
+  to this repository or to any shared component repository (e.g.
+  `ui-library`). Their output is exploratory prototype material only, to be
+  routed through the approved processes in
+  [`specifications/component-governance.md`](./specifications/component-governance.md)
+  before it becomes part of the system.
 
 ## Contributing
 

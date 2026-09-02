@@ -53,6 +53,10 @@ exist in the baseline library):
 ### CG-5 — Verification
 - A new or changed component MUST meet the accessibility requirements in[`accessibility.md`](./accessibility.md) and use tokens per[`design-tokens.md`](./design-tokens.md) before it is considered complete.
 - A new or changed component SHOULD be added to Storybook (web) or themobile equivalent as part of the same piece of work, so CG-1's resolution order stays accurate for the next person or agent.
+### CG-6 — AI-generated prototypes are not approved changes
+- A prototype or mockup produced by an AI design tool (e.g. Claude Design) using this repository as reference MUST be treated as exploratory input only, not an approved design system change.
+- Such a tool MUST NOT commit changes to this repository or to any shared component repository (e.g. `@eroad/ui-library`) — this repository stays read-only source of truth for anything that consumes it.
+- Any new or changed component surfaced in an AI-generated prototype MUST still go through the resolution order ([CG-1](#cg-1--resolution-order)) and, where it applies, the request process ([CG-3](#cg-3--request-types)) before it is implemented.
 ## Platform status
 
 - **Web:** fully documented above — process and terminology (AntD, Storybook, FED, DRS) are drawn directly from the current process.
