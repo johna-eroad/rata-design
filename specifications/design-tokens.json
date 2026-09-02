@@ -1,5 +1,5 @@
 {
-  "$description": "Rātā design tokens — machine-readable companion to specifications/design-tokens.md. The markdown file is the source of truth (see DT-1 in that file); if this file and the markdown ever disagree, the markdown wins and this file should be regenerated from it, not edited independently. Structured using W3C Design Tokens Community Group conventions ($value/$type/$description, https://design-tokens.github.io/community-group/format/) as a pragmatic, machine-parseable format — not a claim of strict spec validation. Some documented categories (decorative palette, deprecated colours) are intentionally omitted below because specific values are not yet captured in the markdown source; see the corresponding $description notes and specifications/design-tokens.md for status. Mobile (Android/iOS, KMP/Material 3) token values are not yet confirmed against this file — see 'Platform status' in specifications/design-tokens.md.",
+  "$description": "Rātā design tokens — machine-readable companion to specifications/design-tokens.md. The markdown file is the source of truth (see DT-1 in that file); if this file and the markdown ever disagree, the markdown wins and this file should be regenerated from it, not edited independently. Structured using W3C Design Tokens Community Group conventions ($value/$type/$description, https://design-tokens.github.io/community-group/format/) as a pragmatic, machine-parseable format — not a claim of strict spec validation. One documented category (deprecated colours) is intentionally omitted below because specific values are not yet captured in the markdown source; see the corresponding $description note and specifications/design-tokens.md for status. Mobile (Android/iOS, KMP/Material 3) token values are not yet confirmed against this file — see 'Platform status' in specifications/design-tokens.md.",
 
   "color": {
     "brand": {
@@ -46,7 +46,47 @@
       "red": { "$value": "#C7362C", "$type": "color" }
     },
     "decorative": {
-      "$description": "Chart/tag/accent palette — blue, green, orange, purple, red, teal, yellow, each with default/dark/light variants. Specific hex values are not yet captured in specifications/design-tokens.md; do not fabricate values here. Extract from eroadTheme.ts colors.ts (eroad/myeroad-portal) when confirming this section, then add tokens here and in the markdown together."
+      "$description": "Chart/tag/accent palette, not for conveying status/meaning (use color.status for that). Each hue has default/dark/light variants.",
+      "red": {
+        "default": { "$value": "#FF584D", "$type": "color" },
+        "dark": { "$value": "#C7362C", "$type": "color" },
+        "light": { "$value": "#FFB8B2", "$type": "color" }
+      },
+      "orange": {
+        "default": { "$value": "#E86900", "$type": "color" },
+        "dark": { "$value": "#B95400", "$type": "color" },
+        "light": { "$value": "#FFBD87", "$type": "color" }
+      },
+      "yellow": {
+        "default": { "$value": "#996900", "$type": "color" },
+        "dark": { "$value": "#FFA91F", "$type": "color" },
+        "light": { "$value": "#FFC547", "$type": "color" }
+      },
+      "blue": {
+        "default": { "$value": "#1693DE", "$type": "color" },
+        "dark": { "$value": "#056DAD", "$type": "color" },
+        "light": { "$value": "#91CEF2", "$type": "color" }
+      },
+      "green": {
+        "default": { "$value": "#53A32E", "$type": "color" },
+        "dark": { "$value": "#288000", "$type": "color" },
+        "light": { "$value": "#8FDB6C", "$type": "color" }
+      },
+      "indigo": {
+        "default": { "$value": "#687DFF", "$type": "color" },
+        "dark": { "$value": "#495AD1", "$type": "color" },
+        "light": { "$value": "#B8C0FF", "$type": "color" }
+      },
+      "teal": {
+        "default": { "$value": "#009E8C", "$type": "color" },
+        "dark": { "$value": "#017A6C", "$type": "color" },
+        "light": { "$value": "#6EDBBF", "$type": "color" }
+      },
+      "purple": {
+        "default": { "$value": "#BF57FF", "$type": "color" },
+        "dark": { "$value": "#990AF0", "$type": "color" },
+        "light": { "$value": "#E2B2FF", "$type": "color" }
+      }
     },
     "deprecated": {
       "$description": "deprecatedSurfaceCriticalRed and deprecatedRagAmberText MUST NOT be used in new work — both fail the contrast requirements in accessibility.md (A11Y-3) against their non-deprecated surfaces (see DT-3). Specific hex values are not yet captured in specifications/design-tokens.md."
