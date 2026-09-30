@@ -1,46 +1,56 @@
+---
+title: Rātā Design
+platform: all
+status: draft
+owner-team: ux
+owner: TBC
+reviewer: TBC
+last-reviewed: TBC
+source: https://eroad.atlassian.net/wiki/spaces/UD/pages/5042110686
+---
+
 # Rātā Design
 
-ERoad Rātā design system specifications and documentation.
+The UX context for EROAD's products: who our users are, the principles we design by, how to use the Rātā design system, and the conventions for each platform. It gives AI agents (and people) one structured source of truth, so AI-assisted design and code output matches how we build.
 
-This repository is intentionally not a code or build project. It is a documentation-first standards repository for the Rātā design system. Its purpose is to hold the authoritative design specifications, implementation guidance, AI skills, and agent definitions that keep product work aligned to the design system across human teams and AI-assisted builders.
+This is a documentation repo, not a code or build project. Agents should start at [AGENTS.md](AGENTS.md).
 
-## Repository purpose
+## Structure
 
-Rātā Design exists to provide a shared source of truth for:
+| Folder | What it holds |
+| --- | --- |
+| [`foundations/`](foundations/) | Only what is true for every user: principles, UX goals, glossary, voice and tone, accessibility standards, component governance and token architecture |
+| [`domain/`](domain/) | Product, market, regulatory and ecosystem context |
+| [`cross-platform/`](cross-platform/) | Moments where web and app users interact, and the entities both sides see |
+| [`research/`](research/) | Research findings and sources |
+| [`platforms/web/`](platforms/web/README.md) | Web (React): users, personas, jobs to be done, patterns, flows, content, states and engineering guidance |
+| [`platforms/app/`](platforms/app/README.md) | App (Kotlin Multiplatform): the same, for app users |
+| [`agent/`](agent/) | Skills, templates, evals, the frontmatter schema and repo integration |
+| [`decisions/`](decisions/) | Decision log with rationale |
+| [`assets/`](assets/README.md) | Visual reference images, catalogued in [`foundations/visual-references.md`](foundations/visual-references.md) |
 
-- product and interface standards
-- visual and interaction specifications
-- language and content guidance
-- design principles and quality criteria
-- reusable AI skills for design and build work
-- agent instructions and behavioural guardrails
+Web and app serve different users with different jobs (for example, dispatchers use web and drivers use app), so user, experience and pattern content stays inside each platform.
 
-The repository is designed for clarity, reviewability, and agent-readability rather than for shipping application code.
+## Ownership model
 
-## Repository structure
+| Area | Owner | Where it lives |
+| --- | --- | --- |
+| Token decisions, naming, meaning and usage rules | UX | This repo |
+| Token source files, build pipeline and published packages | Engineering | Engineering repos |
+| Patterns, use cases, journeys and flows | UX | This repo |
+| Users, personas, archetypes and jobs to be done | UX | This repo |
+| Principles, content and accessibility requirements | UX | This repo |
+| Component code and Figma Code Connect mappings | Engineering | Engineering repos |
+| Engineering conventions and implementation guidance | Engineering | To be confirmed |
 
-- `docs/` — general documentation, process guidance, and shared standards
-- `specifications/` — authoritative design specifications and criteria
-- `assets/` — visual reference assets (logo, screenshots, icons) used for
-  visual verification and extraction, catalogued in
-  [`specifications/visual-references.md`](./specifications/visual-references.md)
-- `skills/` — reusable skills and capability definitions for human and AI contributors
-- `agents/` — agent instructions, conventions, and operational guardrails
+There is only one source of truth for any value or piece of code. This repo links to engineering repos rather than duplicating them. Token values are held here for now as an interim measure (see [decision 0001](decisions/0001-interim-token-values.md)).
 
-## Operating principles
-
-- Design decisions belong in this repository, not in ad hoc implementation notes.
-- Specifications should be explicit, reviewable, and versionable.
-- AI agents should use the repository as the canonical source of system intent.
-- Product work should align to the design system before implementation begins.
-- This repository is read-only source of truth for any AI design tool that
-  consumes it (e.g. Claude Design). Such tools MUST NOT commit changes back
-  to this repository or to any shared component repository (e.g.
-  `ui-library`). Their output is exploratory prototype material only, to be
-  routed through the approved processes in
-  [`specifications/component-governance.md`](./specifications/component-governance.md)
-  before it becomes part of the system.
+This repo is read-only for AI design tools that consume it (for example Claude Design). Their output is exploratory and goes through [component governance](foundations/component-governance.md) before it becomes part of the system.
 
 ## Contributing
 
-Add or update documentation in the most relevant section. Keep content explicit, factual, and aligned to the design system. If a change affects implementation requirements, document the source of truth here before shipping related product work.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or change content, use the templates and frontmatter, get changes reviewed, and log decisions. Owners are listed in [CODEOWNERS](CODEOWNERS), and changes are recorded in the [CHANGELOG](CHANGELOG.md).
+
+## Background
+
+The structure and the open questions for engineering are described on Confluence: [UX Context Repo: Structure and Engineering Input](https://eroad.atlassian.net/wiki/spaces/UD/pages/5042110686).
