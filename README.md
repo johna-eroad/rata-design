@@ -41,7 +41,9 @@ Web and app serve different users with different jobs (for example, dispatchers 
 | Users, personas, archetypes and jobs to be done | UX | This repo |
 | Principles, content and accessibility requirements | UX | This repo |
 | Component code and Figma Code Connect mappings | Engineering | Engineering repos |
-| Engineering conventions and implementation guidance | Engineering | To be confirmed |
+| Engineering conventions and implementation guidance | Engineering (input) | Engineering repos, or this repo as UX-owned files. To be confirmed |
+
+Everything in this repo is owned by UX (see [decision 0003](decisions/0003-ux-owns-this-repo.md)). Where engineering guidance is kept here, engineering provides the input and UX owns the file.
 
 There is only one source of truth for any value or piece of code. This repo links to engineering repos rather than duplicating them. Token values are held here for now as an interim measure (see [decision 0001](decisions/0001-interim-token-values.md)).
 

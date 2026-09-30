@@ -26,7 +26,7 @@ library (e.g. `ui-library`).
 
 - `logo/`: Rātā / EROAD brand marks (primary lockup, icon-only mark,
   light/dark variants)
-- `screenshots/`: real, representative product screens (web and mobile)
+- `screenshots/`: real, representative product screens (web and app)
   that show components and patterns in context
 - `icons/`: representative samples from the icon set in use, to
   illustrate style (stroke weight, corner radius, grid) rather than a

@@ -1,17 +1,5 @@
 # Code owners for this repo.
-# The team handles below are placeholders and need confirming before use.
+# This repo is UX owned (see decisions/0003-ux-owns-this-repo.md).
+# The team handle below is a placeholder and needs confirming before use.
 
-# UX owns all content by default.
-*                                         @eroad/ux
-
-# Engineering owns the engineering placeholders.
-/platforms/web/tokens/README.md           @eroad/engineering
-/platforms/app/tokens/README.md           @eroad/engineering
-/platforms/web/components/README.md       @eroad/engineering
-/platforms/app/components/README.md       @eroad/engineering
-/platforms/web/engineering/               @eroad/engineering
-/platforms/app/engineering/               @eroad/engineering
-/agent/repo-integration.md                @eroad/engineering
-
-# Changes to ownership need both teams.
-/CODEOWNERS                               @eroad/ux @eroad/engineering
+*    @eroad/ux

@@ -24,7 +24,7 @@ The ownership model says token values live in engineering repos and this repo li
 - Once the engineering source is linked, replace the interim file with a link and record a new decision that supersedes this one.
 
 ## Alternatives considered
-- Remove the values now and link to `eroadTheme.ts`. Rejected because mobile has no confirmed source yet, and agents would lose values they rely on today.
+- Remove the values now and link to `eroadTheme.ts`. Rejected because app has no confirmed source yet, and agents would lose values they rely on today.
 - Keep both files unchanged. Rejected because the JSON duplicates values and conflicts with the ownership model.
 
 ## Consequences

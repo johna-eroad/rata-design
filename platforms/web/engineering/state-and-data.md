@@ -2,7 +2,7 @@
 title: State and data
 platform: web
 status: placeholder
-owner-team: engineering
+owner-team: ux
 owner: TBC
 reviewer: TBC
 last-reviewed: TBC

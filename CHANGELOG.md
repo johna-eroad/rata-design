@@ -2,7 +2,13 @@
 
 All notable changes to this repo are recorded here, newest first.
 
-## 2026-10-01
+## 2026-10-01 (terminology and ownership)
+
+### Changed
+- Use "app", not "mobile", for the Kotlin Multiplatform platform. Added the rule to `AGENTS.md`, `CONTRIBUTING.md` and the glossary, and updated existing content.
+- UX now owns every file in this repo ([decision 0003](decisions/0003-ux-owns-this-repo.md)). Engineering placeholders are `owner-team: ux`, and CODEOWNERS lists only UX.
+
+## 2026-10-01 (initial structure)
 
 ### Added
 - UX context structure: `AGENTS.md`, `CLAUDE.md`, `CONTRIBUTING.md`, `CODEOWNERS` and this changelog.

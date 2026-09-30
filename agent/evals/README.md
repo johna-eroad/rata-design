@@ -15,7 +15,7 @@ source: TBC
 Test prompts and expected outcomes that check agents use this repo correctly, for example that an agent skips placeholder files, or refuses to apply web guidance to an app task.
 
 ## Owner
-UX, with engineering input.
+UX, with input from engineering.
 
 ## Template
 No template yet. Propose one with the first eval.

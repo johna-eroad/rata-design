@@ -28,13 +28,13 @@ Templates for new content live in [`agent/templates/`](agent/templates/): person
 For files without a dedicated template, use one of these formats:
 
 - **UX stub:** frontmatter (`status: placeholder`, `owner-team: ux`), then `## Purpose`, `## Content` and `## Related files`.
-- **Engineering placeholder:** frontmatter (`status: placeholder`, `owner-team: engineering`), then `## Purpose`, `## Open questions for engineering`, `## Decisions made` and `## Related files`.
+- **Engineering placeholder:** frontmatter (`status: placeholder`, `owner-team: ux`), then `## Purpose`, `## Open questions for engineering`, `## Decisions made` and `## Related files`.
 
 When you fill in a stub, replace the placeholder text and move `status` to `draft` or `review`.
 
 ## Review process
 
-- Open a pull request. [CODEOWNERS](CODEOWNERS) requests a review from the owning team: UX for content, engineering for engineering placeholders.
+- Open a pull request. [CODEOWNERS](CODEOWNERS) requests a review from UX, which owns everything in this repo. For engineering placeholders, also ask engineering to review the answers to the open questions.
 - A file moves from `draft` to `review` when it is ready, and to `approved` once the reviewer named in its frontmatter signs it off.
 - Content synced from Confluence should keep its source link and sync date, and be updated in both places.
 
@@ -52,4 +52,5 @@ Approved decisions override older guidance, so when a decision changes an existi
 
 - Professional but friendly.
 - NZ English spelling (for example "visualisation", "organisation", "colour").
+- Say "app", not "mobile", for the Kotlin Multiplatform platform. Web is also used on phones, so "mobile" is ambiguous.
 - No em dashes. Use commas, colons, full stops or parentheses instead.

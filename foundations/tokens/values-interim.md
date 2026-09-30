@@ -18,7 +18,7 @@ source: eroad/myeroad-portal packages/ui-library/src/theme/eroadTheme/
 > [decision 0001](../../decisions/0001-interim-token-values.md).
 > Web reference implementation: `eroadTheme.ts` in `eroad/myeroad-portal`,
 > `packages/ui-library/src/theme/eroadTheme/` (AntD theme).
-> Mobile (Android/iOS, KMP/Material 3) equivalent: not yet documented (see
+> App (Android and iOS, KMP/Material 3) equivalent: not yet documented (see
 > [Platform status](#platform-status)).
 > Applies across all Rātā surfaces. See [`platforms/README.md`](../../platforms/README.md).
 
@@ -26,8 +26,8 @@ source: eroad/myeroad-portal packages/ui-library/src/theme/eroadTheme/
 
 Design tokens are the named, canonical values (colour, typography, spacing,
 shape, breakpoints, input sizing, elevation) that back every Rātā surface.
-Product repos implement a platform-specific theme (the web AntD theme, a
-mobile Material 3 theme) that maps onto these tokens. For now, the values
+Product repos implement a platform-specific theme (the web AntD theme, an
+app Material 3 theme) that maps onto these tokens. For now, the values
 are agreed here first and then consumed by product repos. Once the
 engineering token source is confirmed, it becomes the source of truth for
 values, and this file is replaced by a link to it.
@@ -191,7 +191,7 @@ MUST NOT be used.
 | `lg` | 1024px |
 | `xl` | 1280px |
 
-Mobile device size classes are the platform-specific equivalent; see
+On app, device size classes are the platform-specific equivalent; see
 [`platforms/README.md`](../../platforms/README.md).
 
 ### Input sizing
@@ -226,9 +226,9 @@ Ascending order: a higher value MUST render above a lower one:
 - **Web:** fully implemented. See `eroadTheme.ts` in
   `eroad/myeroad-portal/packages/ui-library`, and the live token reference
   in Storybook (`storybook.eroad.io`, design system category).
-- **Mobile (Android/iOS):** a Material 3 theme equivalent (colour scheme,
+- **App (Android and iOS):** a Material 3 theme equivalent (colour scheme,
   type scale, shape, spacing) has not yet been mapped against this
-  document. Treat mobile token values as **open** until confirmed. Do not
+  document. Treat app token values as **open** until confirmed. Do not
   assume the web values apply 1:1 (e.g. Material 3 uses `dp`/`sp`, not
   `px`/`rem`, and has its own elevation model).
 

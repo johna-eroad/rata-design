@@ -37,7 +37,7 @@ assets live in the relevant repository (e.g. `ui-library`).
 
 Every file added to `assets/` must have a corresponding entry below
 describing what it shows, the platform/domain it represents (web or
-mobile), and why it was included. Assets without an entry should be
+app), and why it was included. Assets without an entry should be
 treated as unverified and not relied upon.
 
 ## Logo
@@ -48,7 +48,7 @@ treated as unverified and not relied upon.
 
 ## Screenshots
 
-All screenshots are from MyEROAD (web, React/AntD). No mobile (KMP/Material 3) screenshots yet. This is an open gap;, see [`platforms/README.md`](../platforms/README.md).
+All screenshots are from MyEROAD (web, React/AntD). No app (KMP/Material 3) screenshots yet. This is an open gap; see [`platforms/README.md`](../platforms/README.md).
 
 | Asset | Platform | Shows | Notes |
 | --- | --- | --- | --- |

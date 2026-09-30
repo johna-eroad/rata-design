@@ -14,7 +14,7 @@ source: https://eroad.atlassian.net/wiki/spaces/UD/pages/2152105802/Accessibilit
 > Source of truth: [EROAD Accessibility (Confluence)](https://eroad.atlassian.net/wiki/spaces/UD/pages/2152105802/Accessibility)
 > Last synced: 2026-05-19 (page version 14)
 > Applies across all Rātā surfaces. See [`platforms/README.md`](../platforms/README.md) for
-> the web (React/AntD) vs. mobile (KMP/Material 3) split referenced below.
+> the web (React/AntD) vs. app (KMP/Material 3) split referenced below.
 
 ## Context
 
@@ -73,7 +73,7 @@ levels, and input methods.
 - MUST provide touch targets of at least **44x44px** (or platform equivalent, e.g. 48x48dp on Android) for interactive elements.
 - MUST remain usable when the viewport is magnified (**Web:** screen magnifier compatibility, usable at 400% browser zoom; **Android/iOS:** usable with the OS-level screen magnifier/zoom feature).
 - MUST support full keyboard operability on web: every interactive element reachable and operable via keyboard alone, in a logical tab order, with a visible focus indicator at all times.
-- MUST support the platform's assistive navigation on mobile: full operability via TalkBack (Android) and VoiceOver (iOS), including correct reading order and focus handling for external keyboard/switch control users.
+- MUST support the platform's assistive navigation in the app: full operability via TalkBack (Android) and VoiceOver (iOS), including correct reading order and focus handling for external keyboard/switch control users.
 ### A11Y-6: Content and language
 Outcome: language and instructions are understandable. Platform-agnostic.
 
@@ -107,11 +107,11 @@ Outcome: focus is managed predictably when a modal/dialog opens and closes.
 Use this process when a product needs an alternative palette (e.g.
 high-contrast or colourblind-friendly mode) beyond the default Rātā theme.
 This applies to the shared colour tokens that back both the AntD (web) and
-Material 3 (mobile) implementations.
+Material 3 (app) implementations.
 
 1. Research the relevant colour vision deficiencies (e.g. protanopia, deuteranopia, tritanopia) or contrast needs the palette must serve.
 2. Generate a candidate palette that meets the A11Y-3 contrast ratios using a tool such as [Color Safe](http://colorsafe.co/) or [Adobe Color](https://color.adobe.com/create/color-accessibility).
-3. Define the palette as an override of the shared design tokens, then map it into each platform's baseline: the [Ant Design theme customisation options](https://ant.design/docs/react/customize-theme) for web, and the Material 3 colour scheme/theme APIs for KMP mobile.
+3. Define the palette as an override of the shared design tokens, then map it into each platform's baseline: the [Ant Design theme customisation options](https://ant.design/docs/react/customize-theme) for web, and the Material 3 colour scheme/theme APIs for the KMP app.
 4. Provide a user-facing mechanism (settings/accessibility panel) to switch between the default and alternative palette at runtime, on every platform it needs to be available.
 5. Verify the palette with users who have the relevant colour vision deficiency, or simulate it with a tool such as [Color Oracle](https://colororacle.org/).
 6. Document the new palette and how to switch to it alongside the rest of the design system's theme documentation.

@@ -18,7 +18,7 @@ Every markdown file in this repo starts with this frontmatter, so agents can jud
 title: [File title]
 platform: web | app | cross-platform | all
 status: placeholder | draft | review | approved | deprecated
-owner-team: ux | engineering
+owner-team: ux
 owner: TBC
 reviewer: TBC
 last-reviewed: TBC
@@ -33,7 +33,7 @@ source: [Link to Confluence, Figma or engineering repo, or TBC]
 | `title` | Free text | The file's title, matching its first heading. |
 | `platform` | `web`, `app`, `cross-platform`, `all` | Who the guidance applies to. Use `all` for `foundations/`, `domain/`, `research/`, `agent/` and `decisions/` unless the file is about one platform. Use `cross-platform` only in `cross-platform/`. |
 | `status` | See below | How far the content can be trusted. |
-| `owner-team` | `ux`, `engineering` | The team that owns the content. Should match [CODEOWNERS](../CODEOWNERS). |
+| `owner-team` | `ux` | Always `ux`: this repo is UX owned (see [decision 0003](../decisions/0003-ux-owns-this-repo.md)). Engineering input is captured in each placeholder's "Open questions for engineering" section. |
 | `owner` | Name or `TBC` | The person accountable for the file. |
 | `reviewer` | Name or `TBC` | The person who approves changes. |
 | `last-reviewed` | `YYYY-MM-DD` or `TBC` | When the owner last confirmed the file is accurate. |

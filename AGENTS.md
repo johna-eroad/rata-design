@@ -22,9 +22,15 @@ A structured source of truth about EROAD's users, design principles, design syst
 1. **Foundations first.** Read what applies to every user in [`foundations/`](foundations/): [principles](foundations/principles.md), [accessibility standards](foundations/accessibility-standards.md), [component governance](foundations/component-governance.md) and the [glossary](foundations/glossary.md).
 2. **Then the relevant platform.** Read [`platforms/README.md`](platforms/README.md), then the platform your task is for:
    - [`platforms/web/`](platforms/web/README.md): web, built in React with Ant Design. For example, dispatchers.
-   - [`platforms/app/`](platforms/app/README.md): app, built in Kotlin Multiplatform with Material 3, on Android and iOS. For example, drivers. Older files say "mobile" for this platform.
+   - [`platforms/app/`](platforms/app/README.md): app, built in Kotlin Multiplatform with Material 3, on Android and iOS. For example, drivers.
 3. **Then cross-platform, if the task involves both web and app users.** Read [`cross-platform/`](cross-platform/), for example when a dispatcher assigns a job that a driver receives.
 4. **Use supporting context as needed:** [`domain/`](domain/) for business and regulatory context, [`research/`](research/) for evidence, [`decisions/`](decisions/) for recorded decisions, and [`agent/skills/`](agent/skills/README.md) for reusable review skills.
+
+## Terminology
+
+- Say **app** for the Kotlin Multiplatform platform, never "mobile". Web is also used on phones, so "mobile" is ambiguous. Name Android or iOS only when something differs between them.
+- Say **web** for the React platform, on any device.
+- If a request says "mobile", ask whether it means the app or web on a phone.
 
 ## Precedence rules
 

@@ -109,7 +109,7 @@ task successfully?), run a cognitive walkthrough instead. See
   changes to this repo or to `ui-library`.
 - **Don't assume "web" means "all platforms".** State findings as
   outcome-level where they apply everywhere, and call out explicitly if a
-  finding is web-only or mobile-only.
+  finding is web-only or app-only.
 
 ## Related skills
 

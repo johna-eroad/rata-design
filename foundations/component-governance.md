@@ -15,13 +15,13 @@ source: https://eroad.atlassian.net/wiki/spaces/UD/pages/2684617150/Component+us
 > Last synced: 2026-05-19 (page version 10)
 > Web reference implementation: `@eroad/ui-library` in `eroad/myeroad-portal`,
 > `packages/ui-library/`. Component reference: [Storybook](https://storybook.eroad.io/).
-> Mobile (Android/iOS, KMP/Material 3) equivalent process: not yet documented
+> App (Android and iOS, KMP/Material 3) equivalent process: not yet documented
 > (see [Platform status](#platform-status)).
 
 ## Context
 
 Rātā's component layer is a mix of custom Rātā components and baseline
-library components (AntD on web; Material 3 on mobile; see
+library components (AntD on web; Material 3 on app; see
 [`platforms/README.md`](../platforms/README.md)). Every component, custom or baseline,
 must be considered and designed within the baseline system, not as an
 independent one-off. This document governs how a component need is
@@ -31,7 +31,7 @@ doesn't silently fork the system.
 
 This repository does **not** hold component code or API documentation;
 that lives in [Storybook](https://storybook.eroad.io/) (web) and the
-mobile equivalent. This document governs *process*: where to look, when a
+app equivalent. This document governs *process*: where to look, when a
 change is allowed, and what's required to get one approved.
 
 ## Requirements
@@ -63,7 +63,7 @@ exist in the baseline library):
 - The Foundation team supports new custom component requests but does not own or deliver every change on the requesting team's behalf.
 ### CG-5: Verification
 - A new or changed component MUST meet the accessibility requirements in [`accessibility-standards.md`](./accessibility-standards.md) and use tokens per [`tokens/values-interim.md`](./tokens/values-interim.md) before it is considered complete.
-- A new or changed component SHOULD be added to Storybook (web) or the mobile equivalent as part of the same piece of work, so CG-1's resolution order stays accurate for the next person or agent.
+- A new or changed component SHOULD be added to Storybook (web) or the app equivalent as part of the same piece of work, so CG-1's resolution order stays accurate for the next person or agent.
 ### CG-6: AI-generated prototypes are not approved changes
 - A prototype or mockup produced by an AI design tool (e.g. Claude Design) using this repository as reference MUST be treated as exploratory input only, not an approved design system change.
 - Such a tool MUST NOT commit changes to this repository or to any shared component repository (e.g. `@eroad/ui-library`). This repository stays read-only source of truth for anything that consumes it.
@@ -71,7 +71,7 @@ exist in the baseline library):
 ## Platform status
 
 - **Web:** fully documented above. Process and terminology (AntD, Storybook, FED, DRS) are drawn directly from the current process.
-- **Mobile (Android/iOS):** an equivalent process (baseline: Material 3) is assumed to exist per [`platforms/README.md`](../platforms/README.md), but has not yet been confirmed or ported into this document. Treat CG-1 through CG-4 as **web-specific until confirmed**. Do not assume the FED/DRS process or "never modify the baseline library" rule applies unchanged to mobile without checking.
+- **App (Android and iOS):** an equivalent process (baseline: Material 3) is assumed to exist per [`platforms/README.md`](../platforms/README.md), but has not yet been confirmed or ported into this document. Treat CG-1 through CG-4 as **web-specific until confirmed**. Do not assume the FED/DRS process or "never modify the baseline library" rule applies unchanged to app without checking.
 ## Further reading (non-normative)
 
 - [EROAD Design system (Confluence)](https://eroad.atlassian.net/wiki/spaces/UD/pages/2152104185/EROAD+Design+system)

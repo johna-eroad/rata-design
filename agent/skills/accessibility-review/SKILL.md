@@ -97,7 +97,7 @@ conformance and who is blocked, not general usability:
   ratio, not a one-off custom colour.
 - **Don't conflate platforms.** State the outcome once; give Web, Android,
   and iOS mechanisms separately when they differ, per `platforms/README.md`. A
-  fix verified on web does not imply the mobile equivalent is fixed.
+  fix verified on web does not imply the app equivalent is fixed.
 - **This repository is read-only source of truth.** This skill produces
   findings and remediation guidance, not committed changes to this repo or
   to `ui-library`.

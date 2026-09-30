@@ -15,7 +15,7 @@ source: TBC
 One file per design or repo decision, with its rationale. Approved decisions override older guidance elsewhere in this repo. Name files `NNNN-short-title.md`, numbered in order, and never renumber. To change a decision, add a new one that supersedes it.
 
 ## Owner
-UX, with engineering for decisions that affect code.
+UX. Involve engineering in decisions that affect code.
 
 ## Template
 [`decision-template.md`](../agent/templates/decision-template.md)

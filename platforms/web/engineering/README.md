@@ -2,7 +2,7 @@
 title: Web engineering guidance
 platform: web
 status: draft
-owner-team: engineering
+owner-team: ux
 owner: TBC
 reviewer: TBC
 last-reviewed: TBC
@@ -15,7 +15,7 @@ source: TBC
 Implementation guidance for web that agents must follow when writing code: conventions, state and data, accessibility implementation and testing.
 
 ## Owner
-Engineering.
+UX, with input from engineering.
 
 ## Template
 [Engineering placeholder format](../../../CONTRIBUTING.md#templates) until content is added.
