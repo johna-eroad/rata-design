@@ -1,0 +1,5 @@
+# Code owners for this repo.
+# This repo is UX owned (see decisions/0003-ux-owns-this-repo.md).
+# The team handle below is a placeholder and needs confirming before use.
+
+*    @eroad/ux
