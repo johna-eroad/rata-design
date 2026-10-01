@@ -2,6 +2,14 @@
 
 All notable changes to this repo are recorded here, newest first.
 
+## 2026-10-01 (research)
+
+### Removed
+- `research/` and the research finding template ([decision 0004](decisions/0004-no-research-findings.md)). Research is folded into design work, which links to it as evidence.
+
+### Changed
+- Evidence sections in the persona, user type and jobs-to-be-done templates are for tracing decisions back only. `AGENTS.md` tells agents not to use them to work out requirements.
+
 ## 2026-10-01 (product segments)
 
 ### Added

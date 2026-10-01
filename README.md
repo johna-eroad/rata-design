@@ -22,7 +22,6 @@ This is a documentation repo, not a code or build project. Agents should start a
 | [`foundations/`](foundations/) | Only what is true for every user: principles, UX goals, glossary, voice and tone, accessibility standards, component governance and token architecture |
 | [`domain/`](domain/) | Product, market, regulatory and ecosystem context |
 | [`cross-platform/`](cross-platform/) | Moments where web and app users interact, and the entities both sides see |
-| [`research/`](research/) | Research findings and sources |
 | [`platforms/web/`](platforms/web/README.md) | Web (React): users, personas, jobs to be done, patterns, flows, content, states and engineering guidance |
 | [`platforms/app/`](platforms/app/README.md) | App (Kotlin Multiplatform): the same, for app users |
 | [`agent/`](agent/) | Skills, templates, evals, the frontmatter schema and repo integration |
@@ -30,6 +29,8 @@ This is a documentation repo, not a code or build project. Agents should start a
 | [`assets/`](assets/README.md) | Visual reference images, catalogued in [`foundations/visual-references.md`](foundations/visual-references.md) |
 
 Web and app serve different users with different jobs (for example, dispatchers use web and drivers use app), so user, experience and pattern content stays inside each platform.
+
+Research is not held here. UX folds it into the design work above, which links to the original research as evidence (see [decision 0004](decisions/0004-no-research-findings.md)).
 
 ## Ownership model
 

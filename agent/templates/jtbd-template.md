@@ -45,6 +45,7 @@ Link to the user type.
 ## Related flows
 
 ## Evidence
+Links to the original research behind this file, for tracing decisions back only. Agents must not use these links to work out requirements.
 
 ## Related files
 

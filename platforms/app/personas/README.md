@@ -12,7 +12,7 @@ source: TBC
 # App personas
 
 ## What belongs here
-One file per persona for app users, grounded in research findings. Each persona links to its user type.
+One file per persona for app users, grounded in research, with links to it in an Evidence section. Each persona links to its user type.
 
 ## Owner
 UX.
