@@ -24,7 +24,7 @@ To unlock the maximum productive potential of every fleet asset, driver and load
 Which web and app users this segment serves, and what each does in it. To be completed by UX.
 
 ## Related content
-Personas, jobs to be done, flows, patterns and handoffs tagged `segments: [operational-efficiency]`. To be completed as content is tagged.
+Personas, jobs to be done, flows, surfaces, patterns and handoffs tagged `segments: [operational-efficiency]`. To be completed as content is tagged.
 
 ## Related files
 - [`domain/product-segments/README.md`](README.md)

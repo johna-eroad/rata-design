@@ -35,7 +35,7 @@ source: [Link to Confluence, Figma or engineering repo, or TBC]
 | `platform` | `web`, `app`, `cross-platform`, `all` | Who the guidance applies to. Use `all` for `foundations/`, `domain/`, `agent/` and `decisions/` unless the file is about one platform. Use `cross-platform` only in `cross-platform/`. |
 | `status` | See below | How far the content can be trusted. |
 | `owner-team` | `ux` | Always `ux`: this repo is UX owned (see [decision 0003](../decisions/0003-ux-owns-this-repo.md)). Engineering input is captured in each placeholder's "Open questions for engineering" section. |
-| `segments` | Optional list of slugs: `core-fleet`, `vehicle-and-driver`, `data-and-intelligence`, `safety`, `regulatory`, `operational-efficiency` | The [product segments](../domain/product-segments/README.md) the content belongs to. Use on personas, user types, jobs to be done, flows, patterns and handoffs. Omit it when content applies to every segment. |
+| `segments` | Optional list of slugs: `core-fleet`, `vehicle-and-driver`, `data-and-intelligence`, `safety`, `regulatory`, `operational-efficiency` | The [product segments](../domain/product-segments/README.md) the content belongs to. Use on personas, user types, jobs to be done, flows, surfaces, patterns and handoffs. Omit it when content applies to every segment. |
 | `owner` | Name or `TBC` | The person accountable for the file. |
 | `reviewer` | Name or `TBC` | The person who approves changes. |
 | `last-reviewed` | `YYYY-MM-DD` or `TBC` | When the owner last confirmed the file is accurate. |

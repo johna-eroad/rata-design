@@ -24,7 +24,7 @@ To make fleet compliance effortless and invisible, freeing operators from the bu
 Which web and app users this segment serves, and what each does in it. To be completed by UX.
 
 ## Related content
-Personas, jobs to be done, flows, patterns and handoffs tagged `segments: [regulatory]`. To be completed as content is tagged.
+Personas, jobs to be done, flows, surfaces, patterns and handoffs tagged `segments: [regulatory]`. To be completed as content is tagged.
 
 ## Related files
 - [`domain/product-segments/README.md`](README.md)
