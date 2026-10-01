@@ -3,6 +3,7 @@ title: Flow template
 platform: all
 status: draft
 owner-team: ux
+segments: [segment-slug]
 owner: TBC
 reviewer: TBC
 last-reviewed: TBC

@@ -18,6 +18,7 @@ What EROAD's products do and who they serve, at a level that frames every other 
 To be completed by UX.
 
 ## Related files
+- [`domain/product-segments/README.md`](product-segments/README.md)
 - [`domain/ecosystem.md`](ecosystem.md)
 - [`foundations/glossary.md`](../foundations/glossary.md)
 - [`platforms/README.md`](../platforms/README.md)

@@ -24,7 +24,7 @@ A structured source of truth about EROAD's users, design principles, design syst
    - [`platforms/web/`](platforms/web/README.md): web, built in React with Ant Design. For example, dispatchers.
    - [`platforms/app/`](platforms/app/README.md): app, built in Kotlin Multiplatform with Material 3, on Android and iOS. For example, drivers.
 3. **Then cross-platform, if the task involves both web and app users.** Read [`cross-platform/`](cross-platform/), for example when a dispatcher assigns a job that a driver receives.
-4. **Use supporting context as needed:** [`domain/`](domain/) for business and regulatory context, [`research/`](research/) for evidence, [`decisions/`](decisions/) for recorded decisions, and [`agent/skills/`](agent/skills/README.md) for reusable review skills.
+4. **Use supporting context as needed:** [`domain/product-segments/`](domain/product-segments/README.md) for the product segment a task belongs to and its north star, [`domain/`](domain/) for other business and regulatory context, [`research/`](research/) for evidence, [`decisions/`](decisions/) for recorded decisions, and [`agent/skills/`](agent/skills/README.md) for reusable review skills.
 
 ## Terminology
 
@@ -38,6 +38,8 @@ A structured source of truth about EROAD's users, design principles, design syst
 - Approved decisions in [`decisions/`](decisions/) override older guidance.
 - Skip any file with `status: placeholder`. Treat `status: draft` as provisional, and `status: deprecated` as no longer in force. See [`agent/frontmatter-schema.md`](agent/frontmatter-schema.md).
 - Never apply web user or pattern guidance to app, or app guidance to web.
+- Product segments span both platforms. A segment's north star frames trade-offs, but user, pattern and flow guidance still comes from the platform.
+- eRUC is out of scope. It has its own brand and style guide, so do not apply this repo's guidance to it.
 
 ## Which accessibility file to read
 
