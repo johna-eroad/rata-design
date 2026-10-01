@@ -2,6 +2,11 @@
 
 All notable changes to this repo are recorded here, newest first.
 
+## 2026-10-01 (identity flows scaffold)
+
+### Added
+- `platforms/web/flows/identity/` for back-office users: area README, placeholder flows (sign in, first-time invited user, password recovery, MFA enrolment, MFA challenge, sessions and reauthentication) and shared states (cannot complete sign-in, blocked login, unexpected error, no MFA access, access unavailable).
+
 ## 2026-10-01 (flows and surfaces)
 
 ### Added
