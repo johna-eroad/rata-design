@@ -23,7 +23,7 @@ Thanks for helping keep this repo accurate. Agents treat it as the source of tru
 
 ## Templates
 
-Templates for new content live in [`agent/templates/`](agent/templates/): persona, user type, jobs to be done, flow, pattern, handoff, research finding and decision. Each folder README says which one to use.
+Templates for new content live in [`agent/templates/`](agent/templates/): persona, user type, jobs to be done, flow, pattern, handoff and decision. Each folder README says which one to use.
 
 For files without a dedicated template, use one of these formats:
 
@@ -37,6 +37,10 @@ When you fill in a stub, replace the placeholder text and move `status` to `draf
 - Open a pull request. [CODEOWNERS](CODEOWNERS) requests a review from UX, which owns everything in this repo. For engineering placeholders, also ask engineering to review the answers to the open questions.
 - A file moves from `draft` to `review` when it is ready, and to `approved` once the reviewer named in its frontmatter signs it off.
 - Content synced from Confluence should keep its source link and sync date, and be updated in both places.
+
+## Research
+
+This repo does not hold research findings (see [decision 0004](decisions/0004-no-research-findings.md)). UX folds research into journeys, personas, jobs to be done, patterns and decisions. Use their Evidence sections to link to the original research.
 
 ## When to log a decision
 

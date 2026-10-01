@@ -26,7 +26,7 @@ Every EROAD product and platform feature fits into a product segment. Each segme
 
 ## How to use segments
 
-- **Tag content by segment.** Add the slug to the `segments` field in the frontmatter of personas, user types, jobs to be done, flows, patterns, handoffs and research findings (see [frontmatter schema](../../agent/frontmatter-schema.md)). Content can belong to more than one segment.
+- **Tag content by segment.** Add the slug to the `segments` field in the frontmatter of personas, user types, jobs to be done, flows, patterns and handoffs (see [frontmatter schema](../../agent/frontmatter-schema.md)). Content can belong to more than one segment.
 - **Frame trade-offs.** When choosing between options, prefer the one that moves the segment towards its north star.
 - **Segments span platforms.** Most segments serve both web and app users. Segment files describe purpose, not user experience: user, pattern and flow guidance stays in `platforms/web/` and `platforms/app/`.
 
