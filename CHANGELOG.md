@@ -2,6 +2,13 @@
 
 All notable changes to this repo are recorded here, newest first.
 
+## 2026-10-01 (product segments)
+
+### Added
+- Product segments in `domain/product-segments/`: Core Fleet, Vehicle and Driver, Data and Intelligence, Safety, Regulatory and Operational Efficiency, with value statements and north stars adapted to repo style.
+- Optional `segments` frontmatter field, added to the schema and content templates.
+- Glossary entries for product segment and eRUC, and segment rules in `AGENTS.md`. eRUC is marked out of scope.
+
 ## 2026-10-01 (terminology and ownership)
 
 ### Changed
