@@ -12,7 +12,7 @@ source: TBC
 # App states
 
 ## Purpose
-How app screens handle loading, empty, error, partial, offline and success states. Read this whenever a design or component shows data that can be missing, late or wrong.
+Platform-wide rules for how app screens handle loading, empty, error, partial, offline and success states. States specific to a feature area live in that area's `flows/<area>/states.md`. Read this whenever a design or component shows data that can be missing, late or wrong.
 
 ## Content
 To be completed by UX.

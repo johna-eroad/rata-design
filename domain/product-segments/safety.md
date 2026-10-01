@@ -24,7 +24,7 @@ To eliminate preventable accidents and protect every driver on every journey, cr
 Which web and app users this segment serves, and what each does in it. To be completed by UX.
 
 ## Related content
-Personas, jobs to be done, flows, patterns and handoffs tagged `segments: [safety]`. To be completed as content is tagged.
+Personas, jobs to be done, flows, surfaces, patterns and handoffs tagged `segments: [safety]`. To be completed as content is tagged.
 
 ## Related files
 - [`domain/product-segments/README.md`](README.md)

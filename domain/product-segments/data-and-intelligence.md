@@ -24,7 +24,7 @@ To be the trusted data intelligence layer of the fleet industry, connecting ecos
 Which web and app users this segment serves, and what each does in it. To be completed by UX.
 
 ## Related content
-Personas, jobs to be done, flows, patterns and handoffs tagged `segments: [data-and-intelligence]`. To be completed as content is tagged.
+Personas, jobs to be done, flows, surfaces, patterns and handoffs tagged `segments: [data-and-intelligence]`. To be completed as content is tagged.
 
 ## Related files
 - [`domain/product-segments/README.md`](README.md)

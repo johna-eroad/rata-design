@@ -2,6 +2,17 @@
 
 All notable changes to this repo are recorded here, newest first.
 
+## 2026-10-01 (flows and surfaces)
+
+### Added
+- `platforms/*/surfaces/` for places users work in without a fixed start or end.
+- Flow area, area states and surface templates.
+- Glossary entries for feature area, flow and surface, and an `AGENTS.md` rule on flows, surfaces and shared states.
+- [Decision 0005](decisions/0005-flows-by-area-and-surfaces.md).
+
+### Changed
+- Flows are grouped by feature area, named without numbers, with variants inside a flow and shared states in each area's `states.md`. The flow template adds Problem, Entry points, Variants, Exits and next flows, Surfaces and Examples.
+
 ## 2026-10-01 (research)
 
 ### Removed

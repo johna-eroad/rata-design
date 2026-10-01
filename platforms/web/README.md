@@ -28,4 +28,5 @@ To be completed by UX.
 - [`platforms/web/users/README.md`](users/README.md)
 - [`platforms/web/patterns/README.md`](patterns/README.md)
 - [`platforms/web/flows/README.md`](flows/README.md)
+- [`platforms/web/surfaces/README.md`](surfaces/README.md)
 - [`platforms/web/engineering/README.md`](engineering/README.md)
