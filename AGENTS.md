@@ -39,6 +39,7 @@ A structured source of truth about EROAD's users, design principles, design syst
 - Skip any file with `status: placeholder`. Treat `status: draft` as provisional, and `status: deprecated` as no longer in force. See [`agent/frontmatter-schema.md`](agent/frontmatter-schema.md).
 - Never apply web user or pattern guidance to app, or app guidance to web.
 - A flow is a task with a start and an outcome (`platforms/*/flows/<area>/`). A surface is a place users work in and return to (`platforms/*/surfaces/`). When a flow links to a shared state in its area's `states.md`, use that definition rather than inventing one.
+- If a flow area has a `configuration.md`, read it before working on any flow in that area. Flows can behave differently depending on organisation settings, and that file says how. Shared steps live in the area's `steps/` folder.
 - Product segments span both platforms. A segment's north star frames trade-offs, but user, pattern and flow guidance still comes from the platform.
 - Evidence links (to research, studies or analytics) are for tracing decisions back, not requirements. Do not follow them to work out what to build. If guidance seems to conflict with research you have been given, say so and ask.
 - eRUC is out of scope. It has its own brand and style guide, so do not apply this repo's guidance to it.

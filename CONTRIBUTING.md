@@ -23,7 +23,7 @@ Thanks for helping keep this repo accurate. Agents treat it as the source of tru
 
 ## Templates
 
-Templates for new content live in [`agent/templates/`](agent/templates/): persona, user type, jobs to be done, flow area, flow, area states, surface, pattern, handoff and decision. Each folder README says which one to use.
+Templates for new content live in [`agent/templates/`](agent/templates/): persona, user type, jobs to be done, flow area, flow, step, configuration, area states, surface, pattern, handoff and decision. Each folder README says which one to use.
 
 For files without a dedicated template, use one of these formats:
 

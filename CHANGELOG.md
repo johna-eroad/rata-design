@@ -2,6 +2,13 @@
 
 All notable changes to this repo are recorded here, newest first.
 
+## 2026-10-01 (identity flows scaffold)
+
+### Added
+- `platforms/web/flows/identity/` for back-office users: area README, placeholder flows (sign in, first-time invited user, password recovery, manage MFA, sessions and reauthentication), shared MFA challenge and MFA enrolment steps, `configuration.md` describing the MFA policy, and shared states (cannot complete sign-in, blocked login, unexpected error, no MFA access, access unavailable, grace period active, grace period expired).
+- `platforms/web/flows/organisation-access/` (Admin > My Organisation > Access) with the Client Admin's Configure MFA flow.
+- Step and configuration templates, glossary entries (Client Admin, MFA, organisation setting, step), an `AGENTS.md` rule and [decision 0006](decisions/0006-shared-steps-and-configuration.md).
+
 ## 2026-10-01 (flows and surfaces)
 
 ### Added
