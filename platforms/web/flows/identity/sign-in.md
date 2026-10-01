@@ -27,10 +27,12 @@ To be completed by UX.
 - Signing in with an EROAD username.
 - Signing in with a company account.
 
+Whether the user meets the [MFA challenge](steps/mfa-challenge.md) or [MFA enrolment](steps/mfa-enrolment.md) step depends on the organisation's MFA policy. See [`configuration.md`](configuration.md) rather than describing the policy here.
+
 Details to be completed by UX.
 
 ## Steps
-To be completed by UX.
+Includes the shared [MFA challenge](steps/mfa-challenge.md) step when the MFA policy requires it. Other steps to be completed by UX.
 
 ## States
 Flow-specific states to be completed by UX. For shared states, link to [`states.md`](states.md).

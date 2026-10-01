@@ -23,9 +23,17 @@ How the flows connect, and the order users usually meet them, to be completed by
 - [Sign in](sign-in.md)
 - [First-time invited user](first-time-invited-user.md)
 - [Password recovery](password-recovery.md)
-- [MFA enrolment](mfa-enrolment.md)
-- [MFA challenge](mfa-challenge.md)
+- [Manage MFA](manage-mfa.md)
 - [Sessions and reauthentication](session-and-reauthentication.md)
+
+### Shared steps
+Written once and used by more than one flow:
+
+- [MFA challenge](steps/mfa-challenge.md)
+- [MFA enrolment](steps/mfa-enrolment.md)
+
+## Configuration
+These flows behave differently depending on the organisation's MFA policy, set by a Client Admin. Read [`configuration.md`](configuration.md) first.
 
 ## Entry points
 To be completed by UX.
@@ -39,7 +47,10 @@ To be completed by UX.
 - [Unexpected error](states.md#unexpected-error)
 - [No MFA access](states.md#no-mfa-access)
 - [Access unavailable](states.md#access-unavailable)
+- [Grace period active](states.md#grace-period-active)
+- [Grace period expired](states.md#grace-period-expired)
 
 ## Related files
+- [`platforms/web/flows/organisation-access/README.md`](../organisation-access/README.md)
 - [`platforms/web/flows/README.md`](../README.md)
 - [`platforms/web/states.md`](../../states.md)

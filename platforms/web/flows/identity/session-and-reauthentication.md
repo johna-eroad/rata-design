@@ -24,7 +24,7 @@ To be completed by UX.
 To be completed by UX.
 
 ## Variants
-To be completed by UX.
+Behaviour may depend on the organisation's MFA policy. See [`configuration.md`](configuration.md). Details to be completed by UX.
 
 ## Steps
 To be completed by UX.

@@ -41,11 +41,13 @@ What starts this flow.
 Where the user can start this flow from: surfaces, other flows or notifications.
 
 ## Variants
-Versions of this flow that differ by user, account or setting (for example, signing in with an EROAD username or a company account). Describe each difference here rather than creating a separate flow, unless the variants share almost nothing.
+Versions of this flow that differ by user, account or setting (for example, signing in with an EROAD username or a company account). Describe each difference here rather than creating a separate flow, unless the variants share almost nothing. If an organisation setting changes the flow, link to the area's `configuration.md` rather than describing the setting here.
 
 ## Steps
 1. [Step]
 2. [Step]
+
+For a step shared with other flows, link to its file in `steps/`.
 
 ## States
 States specific to this flow. For states shared across the area (such as errors or blocked access), link to the area's `states.md` rather than redefining them.

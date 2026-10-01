@@ -44,6 +44,18 @@ States that more than one identity flow can lead to. Flows link here rather than
 - **What the user sees:** To be completed by UX.
 - **How to recover:** To be completed by UX.
 
+## Grace period active
+- **When it happens:** To be completed by UX.
+- **Reached from:** To be completed by UX.
+- **What the user sees:** To be completed by UX.
+- **How to recover:** To be completed by UX.
+
+## Grace period expired
+- **When it happens:** To be completed by UX.
+- **Reached from:** To be completed by UX.
+- **What the user sees:** To be completed by UX.
+- **How to recover:** To be completed by UX.
+
 ## Related files
 - [`README.md`](README.md)
 - [`platforms/web/states.md`](../../states.md)

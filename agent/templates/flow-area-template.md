@@ -37,6 +37,12 @@ Links to the user types who go through these flows.
 ## Flow map
 Each flow in the area, in the order users usually meet them, with one line on how it connects to the others. Order lives here, not in file names.
 
+### Shared steps
+Links to files in `steps/`, if any.
+
+## Configuration
+If organisation settings change these flows, link to `configuration.md` in this folder. Otherwise delete this section.
+
 ## Entry points
 Where users enter this area from.
 
